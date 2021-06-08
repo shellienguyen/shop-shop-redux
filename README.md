@@ -3,7 +3,7 @@
 
 ## Description
 
-This is an e-commerce retail platform where users can order retails products by adding products to the cart, check out the cart, and pay for the purchase using a credit card.  This application was originally written using context for global states.  This version of the application was refactored to us Redux.  Stripe was used for payment methods.
+This is an e-commerce retail platform where users can order retail products by adding products to the cart, check out the cart, and pay for the purchase using a credit card.  This application was originally written using context for global states.  This version of the application was refactored to use Redux.  Stripe was used for payment methods.
 
 
 ## Technologies:
