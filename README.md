@@ -22,10 +22,12 @@ This application uses the following technologies:
 - JSON Web Tokens
 - Stripe API
 
+
 ## Usage
 
 This application is deployed at: https://sn-shop-shop-redux.herokuapp.com/
 <br> The repository is housed at: https://github.com/shellienguyen/shop-shop-redux
+
 
 ## Here are some animated demonstration of application's functionalities:
 
