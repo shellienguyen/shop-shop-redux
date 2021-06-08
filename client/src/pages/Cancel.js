@@ -11,10 +11,9 @@ function Cancel() {
   return (
     <div>
       <Jumbotron>
-        <h1>Order Canceled 😢</h1>
-        < hr />
-        <h2>No Worries! Your Cart is saved if you change your mind.</h2>
-        <h3>You will now be redirected back to the home page</h3>
+        <h1>Order Canceled</h1>
+        <hr />
+        <h2>Your Cart is saved!</h2>
       </Jumbotron>
     </div>
   );

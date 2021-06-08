@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { ApolloProvider } from '@apollo/react-hooks';
+import { Provider as StoreProvider } from 'react-redux'
 import ApolloClient from 'apollo-boost';
-
 import Home from "./pages/Home";
 import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
@@ -11,9 +11,8 @@ import Signup from "./pages/Signup";
 import Nav from "./components/Nav";
 import Success from "./pages/Success";
 import OrderHistory from "./pages/OrderHistory";
-
 import store from "./utils/GlobalState";
-import { Provider as StoreProvider } from 'react-redux'
+import Cancel from './pages/Cancel';
 
 const client = new ApolloClient({
   request: (operation) => {

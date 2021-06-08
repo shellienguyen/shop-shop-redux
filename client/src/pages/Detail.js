@@ -17,12 +17,9 @@ import { useSelector, useDispatch } from "react-redux";
 function Detail() {
   const dispatch = useDispatch();
   const state = useSelector((state) => state);
-  const { id } = useParams();
-
+  const { id: idParam } = useParams();
   const [currentProduct, setCurrentProduct] = useState({});
-
   const { loading, data } = useQuery(QUERY_PRODUCTS);
-
   const { products, cart } = state;
 
   useEffect(() => {
